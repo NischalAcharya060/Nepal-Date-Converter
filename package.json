@@ -1,7 +1,10 @@
 {
-  "name": "nepal-date-converter",
+  "name": "@nischalacharya060/nepal-date-converter",
   "version": "1.0.0",
   "description": "Fast, accurate, zero-dependency Nepali (Bikram Sambat / BS) to Gregorian (AD) and AD to BS date converter with Devanagari and English localization.",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
