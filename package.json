@@ -30,7 +30,8 @@
     "build": "tsup",
     "pretest": "npm run build",
     "test": "node --test test/index.test.mjs test/cjs.test.cjs",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test",
+    "publish:github": "npm publish --registry=https://npm.pkg.github.com"
   },
   "keywords": [
     "nepal",
